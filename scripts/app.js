@@ -49,7 +49,7 @@ angular
 			.state('luat-thi-dau', {
 				title: 'Luật thi đấu',
 				url: '/luat-thi-dau',
-				templateUrl: 'templates/rulePlay.html',
+				templateUrl: 'templates/ruleplay.html',
 				controller: 'rulePlayCtrl'
 			})
 			.state('gioi-thieu', {
