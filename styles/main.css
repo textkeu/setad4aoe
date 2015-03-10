@@ -1,0 +1,36 @@
+.docs-menu-icon {
+	background: none;
+	border: none;
+	margin-right: 16px;
+	padding: 0;
+}
+
+md-icon {
+	margin: auto;
+	background-repeat: no-repeat no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	fill: currentcolor;
+	height: 24px;
+	width: 24px;
+}
+
+.menu-item {
+	width: 100%;
+	text-align: left;
+	text-transform: none;
+}
+
+.face {
+	border-radius: 32px;
+	border: 1px solid #ddd;
+	width: 64px;
+	margin: 8px; 
+}
+
+#members.face {
+	border-radius: 30px;
+	border: 1px solid #ddd;
+	width: 48px;
+	margin: 16px; 
+}

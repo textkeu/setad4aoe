@@ -1,0 +1,15 @@
+<md-content id="matches" layout="row" layout-wrap class="md-padding" style="padding: 24px;">
+	<md-list layout-fill>
+		<md-item ng-repeat="mathch in matches">
+			<md-item-content>
+				<div class="md-tile-left" style="margin-right:48px">
+					<h3>Trận {{mathch.id}}</h3>
+				</div>
+				<div>
+					<h4>{{mathch.team_1_name}} : {{mathch.team_1_victory}} || {{mathch.team_2_victory}} : {{mathch.team_2_name}} : </h4>
+				</div>
+			</md-item-content>
+			<md-divider ng-if="!$last"></md-divider>
+		</md-item>
+    </md-list>
+</md-content>

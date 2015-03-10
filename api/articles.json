@@ -1,0 +1,40 @@
+{
+	"articles" : [
+		{
+			"id": 4,
+			"title" : "Mổ xẻ về các đội của giải đế chế D4 - phần cuối",
+			"slug" : "mo-xe-ve-cac-doi-cua-giai-de-che-d4-phan-cuoi",
+			"thumb" : "images/members/10-hunkenx.jpg",
+			"snippet" : "Đẹp thì cũng có sai đâu, ông Mèo thì vốn dĩ là đẹp chai nhất D4, nếu đấu đối kháng với các người đẹp thì có thể chịu nhục dùng MỸ NAM KẾ, chứ đấu với mấy đực rựa thì đẹp chai làm giề. Nặng đô thì cũng lại chuẩn không cần chỉnh, cân nhanh thì ông Chip 66 ký, ông Lee 68 ký, còn ông đẹp chai tưởng thế nào hóa ra chỉ có 62 vì ít hóp.",
+			"author" : "Lee",
+			"datetime" : "03/03/2015 05:47 PM"
+		},
+		{
+			"id": 3,
+			"title" : "Mổ xẻ về các đội của giải đế chế D4 - phần 3",
+			"slug" : "mo-xe-ve-cac-doi-cua-giai-de-che-d4-phan-3",
+			"thumb" : "images/members/07-tom.jpg",
+			"snippet" : "u003cp\u003e- Đây là Team toàn diện nhất giải lần này, nếu bài không xấu thì dù ai ngoài cánh cũng đều có khả năng thủ hay chém thông, đến lúc ý ông ở giữa đẩy quân ra thì có mà mướp đỡ.\u003c/p\u003e",
+			"author" : "Lee",
+			"datetime" : "03/03/2015 05:47 PM"
+		},
+		{
+			"id": 2,
+			"title" : "Mổ xẻ về các đội của giải đế chế D4 - phần 2",
+			"slug" : "mo-xe-ve-cac-doi-cua-giai-de-che-d4-phan-2",
+			"thumb" : "images/members/04-legend.jpg",
+			"snippet" : "\u003cp\u003eSlogan của Team 3: \"Hãy để Kingkong cân bản đồ\". Đó bởi vì chiến thuật mà Kingkong đề ra cho Team 3 rất đơn giản: các chú cứ chém bán máu đi, việc cân bản đồ sẽ là của anh.\u003c/p\u003e",
+			"author" : "Lee",
+			"datetime" : "03/03/2015 05:47 PM"
+		},
+		{
+			"id": 1,
+			"title" : "Mổ xẻ về các đội của giải đế chế D4 - phần 1",
+			"slug" : "mo-xe-ve-cac-doi-cua-giai-de-che-d4-phan-1",
+			"thumb" : "images/members/01-meo-than-tai.jpg",
+			"snippet" : "\u003cp\u003eĐiểm yếu: đây là đội mà 3 thành viên đều có cá tính mạnh nên nếu mỗi ông đánh 1 chiến thuật thì Team 4 khó có cửa lên ngôi đầu và ring cúp vàng về nhà.\u003c/p\u003e",
+			"author" : "Lee",
+			"datetime" : "03/03/2015 05:47 PM"
+		}
+	]
+}

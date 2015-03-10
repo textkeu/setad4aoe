@@ -1,0 +1,21 @@
+<md-content id="news" layout="column" flex layout-fill class="md-padding" style="padding: 24px;">
+	<md-list layout="column">
+		<md-item ng-repeat="article in articles">
+			<md-card>
+				<md-item-content layout="column">
+					<div><h3><a href="#/tin-tuc/{{article.slug}}">{{article.title}}</a></h3></div>
+					<md-divider></md-divider>
+					<div layout="row">
+						<div class="md-tile-left">
+							<img ng-src="{{article.thumb}}" class="face" alt="{{article.title}}" ng-hide="!article.thumb">
+						</div>
+						<div class="md-tile-content">
+							<h4> {{article.datetime}} bởi {{article.author}}</h4>
+							<div ng-bind-html="article.snippet"></div>
+						</div>
+					</div>
+				</md-item-content>
+			<md-card>
+		</md-item>
+	</md-list>
+</md-content>

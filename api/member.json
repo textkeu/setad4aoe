@@ -1,0 +1,159 @@
+{
+	"teams": [
+		{
+			"id" : 1,
+			"name" : "Team 1",
+			"slug" : "team-1",
+			"sologan" : "sologan 1",
+			"members" : [
+				{
+					"id" : 1,
+					"name" : "Bùi Tấn Trung",
+					"nickname" : "MeoThanTai",
+					"level": "2",
+					"birthday" : "1989",
+					"from" : "JMAS",
+					"avatar" : "images/members/01-meo-than-tai.jpg",
+					"team" : 1
+				},
+				{
+					"id" : 2,
+					"name" : "Lê Việt Hà",
+					"nickname" : "Lee",
+					"level": "3-",
+					"birthday" : "",
+					"from" : "D4",
+					"avatar" : "images/members/02-lee.jpg",
+					"team" : 1
+				}
+				,
+				{
+					"id" : 3,
+					"name" : "Lê Duy Thanh",
+					"nickname" : "Chip",
+					"level": "4",
+					"birthday" : "1989",
+					"from" : "JMAS",
+					"avatar" : "images/members/03-chip.jpg",
+					"team" : 1
+				}
+			]
+		},
+		{
+			"id" : 2,
+			"name" : "Team 2",
+			"slug" : "team-2",
+			"sologan" : "sologan 2",
+			"members" : [
+				{
+					"id" : 4,
+					"name" : "Bùi Văn Thịnh",
+					"nickname" : "LEGEND",
+					"level": "2",
+					"birthday" : "",
+					"from" : "Amana",
+					"avatar" : "images/members/04-legend.jpg",
+					"team" : 2
+				},
+				{
+					"id" : 5,
+					"name" : "Nguyễn Hữu Tuân",
+					"nickname" : "haha",
+					"level": "3+",
+					"birthday" : "",
+					"from" : "Meidensha",
+					"avatar" : "images/members/05-haha.jpg",
+					"team" : 2
+				}
+				,
+				{
+					"id" : 6,
+					"name" : "Nguyễn Văn Lưỡng",
+					"nick-name" : "KingKong",
+					"level": "4-",
+					"birthday" : "",
+					"from" : "BrSE",
+					"avatar" : "images/members/06-king-kong.jpg",
+					"team" : 2
+				}
+			]
+		},
+		{
+			"id" : 3,
+			"name" : "Team 3",
+			"slug" : "team-3",
+			"sologan" : "sologan 3",
+			"members" : [
+				{
+					"id" : 7,
+					"name" : "Nguyễn Anh Đức",
+					"nickname" : "Tom",
+					"level": "2",
+					"birthday" : "1990",
+					"from" : "Nikkei",
+					"avatar" : "images/members/07-tom.jpg",
+					"team" : 3
+				},
+				{
+					"id" : 8,
+					"name" : "Lê Kim Hiếu",
+					"nickname" : "@@@@@@",
+					"level": "3+",
+					"birthday" : "1989",
+					"from" : "JMAS",
+					"avatar" : "images/members/08-@.jpg",
+					"team" : 3
+				},
+				{
+					"id" : 9,
+					"name" : "Nguyễn Thanh Bình",
+					"nickname" : "atula",
+					"level": "4",
+					"birthday" : "1989",
+					"from" : "Nikkei",
+					"avatar" : "images/members/09-atula.jpg",
+					"team" : 3
+				}
+			]
+		},
+		{
+			"id" : 4,
+			"name" : "Team 4",
+			"slug" : "team-4",
+			"sologan" : "sologan 4",
+			"members" : [
+				{
+					"id" : 10,
+					"name" : "Đỗ Tá Dũng",
+					"nickname" : "hunkenx",
+					"level": "1",
+					"birthday" : "",
+					"from" : "Meidensha",
+					"avatar" : "images/members/10-hunkenx.jpg",
+					"team" : 4
+				},
+				{
+					"id" : 11,
+					"name" : "Đỗ Như Linh",
+					"nickname" : "DURIAN",
+					"level": "3",
+					"birthday" : "1989",
+					"from" : "Nikkei",
+					"avatar" : "images/members/11-durian.jpg",
+					"team" : 4
+				}
+				,
+				{
+					"id" : 12,
+					"name" : "Nguyễn Vũ Hiển",
+					"nickname" : "Bui Nhui",
+					"level": "4-",
+					"birthday" : "",
+					"from" : "DM",
+					"avatar" : "images/members/12-bui-nhui.jpg",
+					"team" : 4
+				}
+			]
+		}
+	]
+}

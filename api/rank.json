@@ -1,0 +1,126 @@
+{
+	"rank" : [
+		{
+			"id" : 1,
+			"name": "Team 1",
+			"slug" : "team-1",
+			"victory" : 0,
+			"defeat" : 0,
+			"score" : 0
+		},
+		{
+			"id" : 2,
+			"name": "Team 2",
+			"slug" : "team-2",
+			"victory" : 0,
+			"defeat" : 0,
+			"score" : 0
+		},
+		{
+			"id" : 3,
+			"name": "Team 3",
+			"slug" : "team-3",
+			"victory" : 3,
+			"defeat" : 0,
+			"score" : 3
+		},
+		{
+			"id" : 4,
+			"name": "Team 4",
+			"slug" : "team-4",
+			"victory" : 0,
+			"defeat" : 3,
+			"score" : 0
+		}
+	],
+	"match" : 
+		{
+			"qualifying" : [
+				{
+					"id" : 1,
+					"slug": "tran-1",
+					"status" : 2,
+					"team_1_id" : 3,
+					"team_1_name" : "Team 3",
+					"team_1_victory" : 3,
+					"team_2" : 4,
+					"team_2_name" : "Team 4",
+					"team_2_victory" : 0,
+					"date": "9/3"
+				},
+				{
+					"id" : 2,
+					"slug": "tran-2",
+					"status" : 0,
+					"team_1_id" : 1,
+					"team_1_name" : "Team 1",
+					"team_1_victory" : 0,
+					"team_2" : 3,
+					"team_2_name" : "Team 3",
+					"team_2_victory" : 2,
+					"date": "10/3"
+				},
+				{
+					"id" : 3,
+					"slug": "tran-3",
+					"status" : 0,
+					"team_1_id" : 1,
+					"team_1_name" : "Team 1",
+					"team_1_victory" : 0,
+					"team_2" : 3,
+					"team_2_name" : "Team 3",
+					"team_2_victory" : 0,
+					"date": "11/3"
+				},
+				{
+					"id" : 4,
+					"slug": "tran-4",
+					"status" : 0,
+					"team_1_id" : 2,
+					"team_1_name" : "Team 2",
+					"team_1_victory" : 0,
+					"team_2" : 4,
+					"team_2_name" : "Team 4",
+					"team_2_victory" : 0,
+					"date": "12/3"
+				},
+				{
+					"id" : 5,
+					"slug": "tran-5",
+					"status" : 0,
+					"team_1_id" : 1,
+					"team_1_name" : "Team 1",
+					"team_1_victory" : 0,
+					"team_2" : 4,
+					"team_2_name" : "Team 4",
+					"team_2_victory" : 0,
+					"date": "13/3"
+				},
+				{
+					"id" : 6,
+					"slug": "tran-6",
+					"status" : 0,
+					"team_1_id" : 2,
+					"team_1_name" : "Team 2",
+					"team_1_victory" : 0,
+					"team_2" : 3,
+					"team_2_name" : "Team 3",
+					"team_2_victory" : 0,
+					"date": "16/3"
+				}
+			],
+			"final" : {
+					"id" : 6,
+					"slug": "tran-6",
+					"status" : 0,
+					"team_1_id" : 2,
+					"team_1_name" : "Team x",
+					"team_1_victory" : 0,
+					"team_2" : 3,
+					"team_2_name" : "Team y",
+					"team_2_victory" : 0,
+					"date": "17/3"
+				}
+		}
+		
+}

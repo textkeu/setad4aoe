@@ -1,0 +1,34 @@
+<md-content id="rank" layout="row" layout-wrap class="md-padding" style="padding: 24px;">
+	<md-list style="width:100%">
+		<md-item>
+			<md-item-content>
+				<div flex><h2>Đội</h2></div>
+				<div flex="20"><h2>Vic</h2></div>
+				<div flex="20"><h2>Def</h2></div>
+				<div flex="20" ng-click="predicate = 'score'; reverse=!reverse"><h2>Điểm</h2></div>
+				<!--iv class="md-tile-left" style="margin-right:48px">
+					<h3>{{team.name}}</h3>
+				</div>
+				<div>
+					<h4>Victory: {{team.victory}} | Defeat : {{team.defeat}} | Score : {{team.score}}</h4>
+				</div-->
+			</md-item-content>
+			<md-divider ng-if="!$last"></md-divider>
+		</md-item>
+		<md-item ng-repeat="team in teams | orderBy : '-score'">
+			<md-item-content>
+				<div flex><h3>{{team.name}}</h3></div>
+				<div flex="20"><h3>{{team.victory}}</h3></div>
+				<div flex="20"><h3>{{team.defeat}}</h3></div>
+				<div flex="20"><h3>{{team.score}}</h3></div>
+				<!--iv class="md-tile-left" style="margin-right:48px">
+					<h3>{{team.name}}</h3>
+				</div>
+				<div>
+					<h4>Victory: {{team.victory}} | Defeat : {{team.defeat}} | Score : {{team.score}}</h4>
+				</div-->
+			</md-item-content>
+			<md-divider ng-if="!$last"></md-divider>
+		</md-item>
+    </md-list>
+</md-content>

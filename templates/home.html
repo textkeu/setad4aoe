@@ -1,0 +1,24 @@
+<md-content layout-align="end center" layout="column" style="background-image:url('images/aoe2.jpg')" layout-fill>
+	<md-content style="background:#8fff;width:90%;margin-bottom:64px;border-radius: 16px;" class="md-padding" >
+		<md-list>
+			<md-item>
+				<md-item-content>
+					<div flex><h3></h3></div>
+					<div flex="20"><h3>Vic</h3></div>
+					<div flex="20"><h3>Def</h3></div>
+					<div flex="20"><h3>Sc</h3></div>
+				</md-item-content>
+				<md-divider ng-if="!$last"></md-divider>
+			</md-item>
+			<md-item ng-repeat="team in teams | orderBy : '-score'">
+				<md-item-content>
+					<div flex><h4>{{team.name}}</h4></div>
+					<div flex="20"><h4>{{team.victory}}</h4></div>
+					<div flex="20"><h4>{{team.defeat}}</h4></div>
+					<div flex="20"><h4>{{team.score}}</h4></div>
+				</md-item-content>
+				<md-divider ng-if="!$last"></md-divider>
+			</md-item>
+	    </md-list>
+	</md-content>
+</md-content>

@@ -1,0 +1,10 @@
+<md-content id="news" layout="column" flex class="md-padding">
+	<div>
+		<h3>{{article.title}}</h3>
+	</div>
+	<div class="md-tile-content">
+		<h4 layout-align="end center">{{article.datetime}} bởi {{article.author}}</h4>
+		<md-divider></md-divider>
+		<div ng-bind-html="article.content"></div>
+	</div>
+</md-content>

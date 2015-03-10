@@ -1,0 +1,24 @@
+<md-content id="members" layout="column" flex layout-fill class="md-padding" style="padding: 24px;">
+  <section ng-repeat="team in teams">
+    <md-subheader class="md-primary"><h3>{{team.name}}</h3></md-subheader>
+    <md-list layout="column">
+      <md-item ng-repeat="member in team.members">
+      <md-card>
+        <md-item-content>
+          <div class="md-tile-left">
+            <img ng-src="{{member.avatar}}" class="face" alt="{{member.name}}">
+          </div>
+          <div class="md-tile-content">
+            <h2>{{member.name}}</h3>
+            <md-divider></md-divider>
+            <h4>Nickname: {{member.nickname}}</h4>
+            <h4>level: {{member.level}}</h4>
+            <h4>Year: {{member.birthday}}</h4>
+            <h4>From: {{member.from}}</h4>
+          </div>
+        </md-item-content>
+        <md-card>
+      </md-item>
+    </md-list>
+  </section>
+</md-content>

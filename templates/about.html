@@ -1,0 +1,45 @@
+<md-content id="about" layout="row"  layout-sm="column" layout-wrap class="md-padding">
+	<div flex="25">
+		<img ng-src="{{face}}" class="face" alt="{{author}}">
+	</div>
+	<div flex="75">
+		<md-list>
+			<md-item>
+				<md-item-content>
+					<div class="md-tile-left">
+						<img ng-src="{{}}" class="about-item-icon">
+					</div>
+					<div>
+						<md-button class="menu-item" >{{author}}</md-button>
+					</div>
+				</md-item-content>
+			</md-item>
+			<md-divider></md-divider>
+			<md-item>
+				<md-item-content>
+					<div hide-sm class="md-tile-left">
+						<img ng-src="{{}}" class="about-item-icon">
+					</div>
+					<div>
+						<md-button class="menu-item md-primary" ng-href="{{facebook}}" target="_blank">{{facebook}}</md-button>
+					</div>
+				</md-item-content>
+			</md-item>
+			<md-divider></md-divider>
+			<md-item>
+				<md-item-content>
+					<div hide-sm class="md-tile-left">
+						<img ng-src="{{}}" class="about-item-icon">
+					</div>
+					<div>
+						<md-button class="menu-item md-primary" ng-href="{{gplus}}" target="_blank">{{gplus}}</md-button>
+					</div>
+				</md-item-content>
+			</md-item>
+	    </md-list>
+	</div>
+	<md-divider style="width:100%;"></md-divider>
+	<div layout-wrap style="margin-top:16px;">
+		{{intro}}
+	</div>
+</md-content>
