@@ -9,9 +9,9 @@ angular
 		});
 		
 		$scope.openUrl = function(url) {
-		    alert(url);
 		    if(url != ''){
-		        window.location.pathname = "#"+url;    
+		        //window.location.pathname = "#"+url;    
+		        window.location.href = 'http://textkeu.github.io/#' + url;
 		    }
         };
 	}]);

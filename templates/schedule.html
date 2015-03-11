@@ -31,14 +31,14 @@
 		</md-item>
 		<md-item md-ink-ripple  ng-click="openUrl(match.url)">
 			<md-item-content ng-class="{ 'match_comming'   : match.status === 0, 'match_live' : match.status === 1, 'match_finished' : match.status === 2}">
-				<div class="md-tile-left" style="margin-right:12px">
+				<div class="md-tile-left" style="margin-right:12px; margin-left:12px">
 					<h3>FINAL</h3>
 				</div>
 				<div hide-sm style="width:48px;"></div>
 				<div flex>
 					<h4>{{finalMatch.team_1_name}}  ( {{finalMatch.team_1_victory}} : {{finalMatch.team_2_victory}} )  {{finalMatch.team_2_name}}</h4>
 				</div>
-				<div class="md-tile-right" style="margin-left:12px">
+				<div class="md-tile-right" style="margin-right:12px">
 					<h4>{{finalMatch.date}}</h4>
 				</div>
 			</md-item-content>
