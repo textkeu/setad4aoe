@@ -1,6 +1,15 @@
 {
 	"articles" : [
 	    {
+			"id": 6,
+			"title" : "Trận thứ 2: Team 1 vs Team 3",
+			"slug" : "tran-thu-2-team1-team3",
+			"thumb" : "images/matches/02/m2-t1-t3-01-timeline.bmp",
+			"snippet" : "Trận thứ 2: Team 1 vs Team 3\u003c/h3\u003e\r\n\u003cp\u003eCuộc đối đầu giữa 2 đối bên vẫn chưa đến hồi kết thúc. Hiện tại tỉ số đang là 2-0 nghiêng về Team 3. Dường như lơi thế đang thuộc về Team 3. Nhưng chúng ta hãy mong chờ một sự trở lại của Team 1 để cuộc chơi trở lên gay cấn hơn. Sau đây là một số hình ảnh được chụp lại sau trận đấu",
+			"author" : "TextKeu",
+			"datetime" : "11/03/2015 05:25 PM"
+		},
+	    {
 			"id": 5,
 			"title" : "Trận khai mạc: Team 3 vs Team 4",
 			"slug" : "tran-khai-mac-team3-team4",
