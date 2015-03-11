@@ -1,5 +1,14 @@
 {
 	"articles" : [
+	    {
+			"id": 5,
+			"title" : "Trận khai mạc: Team 3 vs Team 4",
+			"slug" : "tran-khai-mac-team3-team4",
+			"thumb" : "images/matches/01/m1-t3-t4-01-timeline.bmp",
+			"snippet" : "Trận thi đấu khai mạc giải SETA D4 AOE Spring Cup đã kết thúc với tỉ số 3-0 nghiêng về Team 3. Sau đây là một số hình ảnh được chụp lại sau trận đấu",
+			"author" : "TextKeu",
+			"datetime" : "11/03/2015 03:45 PM"
+		},
 		{
 			"id": 4,
 			"title" : "Mổ xẻ về các đội của giải đế chế D4 - phần cuối",
