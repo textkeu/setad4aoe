@@ -10,8 +10,8 @@ angular
 		
 		$scope.openUrl = function(url) {
 		    if(url != ''){
-		        window.location.pathname = '#'+url;    
-		        //window.location.href = 'http://textkeu.github.io/#' + url;
+		        //window.location.pathname = '#'+url;    
+		        window.location.href = 'http://textkeu.github.io/#' + url;
 		    }
         };
 	}]);
