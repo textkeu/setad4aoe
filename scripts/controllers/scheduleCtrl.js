@@ -9,6 +9,7 @@ angular
 		});
 		
 		$scope.openUrl = function(url) {
+		    console.log(url);
 		    if(url != ''){
 		        window.location.pathname = "#"+url;    
 		    }
