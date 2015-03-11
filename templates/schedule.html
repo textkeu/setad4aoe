@@ -15,7 +15,7 @@
 			<md-divider></md-divider>
 		</md-item>
 		<md-item ng-repeat="mathch in qualifying">
-			<md-item-content>
+			<md-item-content ng-class="{ 'match_comming'   : mathch.status === 0, 'match_live' : mathch.status === 1, 'match_finished' : mathch.status === 2}">
 				<div class="md-tile-left" style="margin-right:12px">
 					<h3>Trận {{mathch.id}}</h3>
 				</div>
@@ -30,7 +30,7 @@
 			<md-divider></md-divider>
 		</md-item>
 		<md-item>
-			<md-item-content>
+			<md-item-content ng-class="{ 'match_comming'   : mathch.status === 0, 'match_live' : mathch.status === 1, 'match_finished' : mathch.status === 2}">
 				<div class="md-tile-left" style="margin-right:12px">
 					<h3>FINAL</h3>
 				</div>
