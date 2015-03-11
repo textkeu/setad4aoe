@@ -8,7 +8,7 @@ angular
 			$scope.finalMatch = data.final;
 		});
 		
-		$scope.openUrl= function(url){
-		    window.location.pathname = url;
-		}
+		$scope.openUrl = function(url) {
+            window.location.pathname = url;
+        };
 	}]);
