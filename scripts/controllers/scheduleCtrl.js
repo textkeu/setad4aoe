@@ -7,4 +7,8 @@ angular
 			$scope.qualifying = data.qualifying;
 			$scope.finalMatch = data.final;
 		});
+		
+		openUrl: function(url){
+		    window.location.pathname = url;
+		}
 	}]);
