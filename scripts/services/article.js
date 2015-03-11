@@ -3,7 +3,7 @@ angular
 	.factory('Article', ['$http', function($http){
 		return {
 			getArticles: function(){
-				return $http.get('api/articles.json', { cache: false}).then(function(response){
+				return $http.get('api/articles.json').then(function(response){
 					return response.data.articles;
 				});
 			},
