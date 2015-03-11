@@ -34,3 +34,7 @@ md-icon {
 	width: 48px;
 	margin: 16px; 
 }
+
+#news figure img {
+    width: 100%;
+}
