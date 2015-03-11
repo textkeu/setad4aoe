@@ -47,7 +47,7 @@
 					"team_2_name" : "Team 4",
 					"team_2_victory" : 0,
 					"date": "9/3",
-					"url" : "#/tin-tuc/tran-khai-mac-team3-team4"
+					"url" : "/tin-tuc/tran-khai-mac-team3-team4"
 				},
 				{
 					"id" : 2,

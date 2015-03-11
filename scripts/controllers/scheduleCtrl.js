@@ -9,6 +9,8 @@ angular
 		});
 		
 		$scope.openUrl = function(url) {
-            window.location.pathname = url;
+		    if(url != ''){
+		        window.location.pathname = "#"+url;    
+		    }
         };
 	}]);
