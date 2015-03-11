@@ -16,14 +16,14 @@
 		</md-item>
 		<md-item ng-repeat="match in qualifying">
 			<md-item-content ng-class="{ 'match_comming' : match.status === 0, 'match_live' : match.status === 1, 'match_finished' : match.status === 2}">
-				<div class="md-tile-left" style="margin-right:12px">
+				<div class="md-tile-left" style="margin-right:12px; margin-left:12px">
 					<h3>Trận {{match.id}}</h3>
 				</div>
 				<div hide-sm style="width:48px;"></div>
 				<div flex>
 					<h4>{{match.team_1_name}}  ( {{match.team_1_victory}} : {{match.team_2_victory}} )  {{match.team_2_name}}</h4>
 				</div>
-				<div class="md-tile-right" style="margin-left:12px">
+				<div class="md-tile-right" style="margin-right:12px">
 					<h4>{{match.date}}</h4>
 				</div>
 			</md-item-content>
