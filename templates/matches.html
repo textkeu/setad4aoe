@@ -1,6 +1,6 @@
 <md-content id="matches" layout="row" layout-wrap class="md-padding" style="padding: 24px;">
 	<md-list layout-fill>
-		<md-item ng-repeat="mathch in matches">
+		<md-item ng-repeat="mathch in matches" ng-class="{ 'match_comming'   : mathch.status === 0, 'match_live' : mathch.status === 1, 'match_finished' : mathch.status === 2}">
 			<md-item-content>
 				<div class="md-tile-left" style="margin-right:48px">
 					<h3>Trận {{mathch.id}}</h3>

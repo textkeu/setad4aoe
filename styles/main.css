@@ -38,3 +38,15 @@ md-icon {
 #news figure img {
     width: 100%;
 }
+
+.match_comming {
+    
+}
+
+.match_live {
+    background-color: #66BB6A;
+}
+
+.match_finished{
+    background-color: #BDBDBD;
+}
