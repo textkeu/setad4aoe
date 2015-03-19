@@ -4,33 +4,33 @@
 			"id" : 1,
 			"name": "Team 1",
 			"slug" : "team-1",
-			"victory" : 0,
-			"defeat" : 2,
+			"victory" : 3,
+			"defeat" : 4,
 			"score" : 0
 		},
 		{
 			"id" : 2,
 			"name": "Team 2",
 			"slug" : "team-2",
-			"victory" : 2,
-			"defeat" : 0,
+			"victory" : 3,
+			"defeat" : 1,
 			"score" : 2
 		},
 		{
 			"id" : 3,
 			"name": "Team 3",
 			"slug" : "team-3",
-			"victory" : 5,
+			"victory" : 6,
 			"defeat" : 0,
-			"score" : 5
+			"score" : 6
 		},
 		{
 			"id" : 4,
 			"name": "Team 4",
 			"slug" : "team-4",
-			"victory" : 0,
-			"defeat" : 5,
-			"score" : 0
+			"victory" : 2,
+			"defeat" : 9,
+			"score" : 1
 		}
 	],
 	"match" : 
